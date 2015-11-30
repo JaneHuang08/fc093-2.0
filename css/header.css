@@ -1,0 +1,26 @@
+header.common-header {top: 0;left: 0;width: 100%;background: #fff;height: 70px;z-index: 999;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);box-sizing: content-box;}
+header.common-header .container {max-width: 1200px;margin: 0 auto;position: relative; background-color:#fff;}
+header.common-header .container .logo{ width:160px; height:52px; display:block; float:left; margin-top:8px;}
+header.common-header .container .J_navList { float: right;}
+header.common-header .container .J_navList li{height:70px; padding:0 5px; float:left;}
+header.common-header .container .J_navList li a{ color:#333;line-height:68px;height:68px; display:block; font-size:16px; padding:0 10px;}
+header.common-header .container .J_navList li a:hover{ color:#F30;}
+header.common-header li:hover > a i, header.common-header li.stay > a i{ color:#F30 !important;}	
+header.common-header .container .J_navList .on a{font-weight: bold; border-bottom:#F30 2px solid;}
+header.common-header .container .J_navList .icon-arrow{ color:#6a6a7b; font-size:14px;}
+
+header.common-header .sub-nav{ display:none;}
+header.black{background: #333333; margin-bottom:100px;}
+header.common-header .black{background-color:#333;}
+
+
+
+/**.common-header .container .J_navList li,.common-header .container .sub-nav li{ line-height:40px; height:40px; padding:0 10px;}
+.common-header .container .J_navList li{ float:left;}
+.common-header .container .J_navList li a{ color:#b3b3b3;line-height:40px;height:40px; display:block;}
+.common-header .container .J_navList li a:hover{ color:#fff;}
+.common-header .container .J_navList .on a{ color:#fff; font-weight: bold; background:url(../images/arrow3.png) no-repeat bottom center;}
+.common-header .container .sub-nav{ float:right; width:415px; color:#c2c2c2;}
+.common-header .container .sub-nav li{ float:left;}
+.common-header .container .sub-nav .login-actions a,.common-header .container .sub-nav .login-actions span{ color:#09F;}
+.common-header .container .sub-nav li span{ padding-right:5px;}
